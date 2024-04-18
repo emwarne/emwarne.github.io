@@ -1,0 +1,39 @@
+* {
+    font-family: "Rubik", sans-serif;
+    /* max-width: 1000px; */
+    margin: auto; 
+}
+
+h1 {
+    /* color: #1a704f; */
+    color: #000000;
+    /* color: #ffffff; */
+    background-color: #1a704f8c;
+    /* background-color: #1a704f; */
+    /* border-bottom: 2px solid #1a704f; */
+    padding: 10px;
+    font-weight: 600;
+}
+
+#contents {
+    background-color: #1a704f34;
+    padding: 10px;
+    border-top: 2px solid #1a704f;
+    border-bottom: 2px solid #1a704f;
+}
+
+h2{
+    padding: 20px 10px 0px 10px;
+}
+
+p{
+    padding: 10px 10px 0px 10px;
+}
+
+@media screen and (min-width: 1000px) {
+    p,h1,h2,#contents {
+        max-width: 1000px;
+        /* padding-left: 300px;  */
+        /* padding-right: 300px;  */
+    }
+}
